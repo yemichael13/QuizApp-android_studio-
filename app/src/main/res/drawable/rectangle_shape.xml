@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Semi-transparent background color -->
+    <solid android:color="#800288D1" /> <!-- #80 is 50% transparent -->
+
+    <corners android:radius="16dp" />
+
+    <!-- Optional: Semi-transparent stroke -->
+    <stroke
+        android:width="2dp"
+        android:color="#800288D1" /> <!-- #80 is 50% transparent -->
+</shape>
