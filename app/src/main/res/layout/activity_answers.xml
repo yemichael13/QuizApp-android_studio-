@@ -27,5 +27,33 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/round_bg"
             android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Which of the following is the largerst Ocean?\nAnswer: Pacific Ocean"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_bg"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Which of the following is known as both a Country and Continent?\nAnswer: Australia"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_bg"
+            android:padding="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Which one is largest Continent in our planet?\nAnswer: Asia"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/round_bg"
+            android:padding="10dp"
+            />
     </LinearLayout>
 </ScrollView>

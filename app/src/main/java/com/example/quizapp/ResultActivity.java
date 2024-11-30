@@ -16,7 +16,7 @@ public class ResultActivity extends AppCompatActivity {
 
         TextView tvScore = findViewById(R.id.tvScore);
         int score = getIntent().getIntExtra("score", 0);
-        tvScore.setText("Your Score: " + score);
+        tvScore.setText("Your Score: " + score + "/20");
 
         Button btnViewAnswers = findViewById(R.id.btnViewAnswers);
         btnViewAnswers.setOnClickListener(view -> {
