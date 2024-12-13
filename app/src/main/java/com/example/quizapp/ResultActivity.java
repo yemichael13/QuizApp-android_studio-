@@ -16,16 +16,15 @@ public class ResultActivity extends AppCompatActivity {
 
         TextView tvScore = findViewById(R.id.tvScore);
         int score = getIntent().getIntExtra("score", 0);
-        tvScore.setText("Your Score: " + score + "/20");
+        tvScore.setText("Your Score: " + score + "/5");
 
         TextView comment = findViewById(R.id.greatJob);
-        if(score < 5){
+        if(score < 2){
             comment.setText("Not Bad");
-        } else if (score <= 10) {
-            comment.setText("Good");
-        } else if (score <= 18) {
-            comment.setText("Great Job");
-        } else{
+        } else if (score <= 4) {
+            comment.setText("Greate Job");
+        }
+        else{
             comment.setText("Exelent");
         }
 
